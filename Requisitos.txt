@@ -1,0 +1,51 @@
+REQUISITOS FUNCIONALES 
+-------------------------------------------------------------------------------------------------------------------------
+1. Para los estudiantes:
+* Búsqueda y consulta de catálogo bibliográfico (libros, revistas, tesis, recursos digitales) en general. 
+* Búsqueda y consulta de material bibliográfico relevante por cada una de las asignaturas en las que el alumno está matriculado.
+* Reserva y renovación de préstamos de fondos bibliográficos.
+* Acceso a recursos electrónicos (bases de datos, e-books, etc.) con la correspondiente gestión de derechos.
+* Gestión de historial de préstamos. 
+* Solicitud de adquisición de materiales bibliográficos tanto genéricos como específicos de las asignaturas en la que está matriculado. 
+* Notificaciones de vencimiento de préstamos y disponibilidad de reservas. 
+* Petición de uso de espacios físicos como salas de reuniones, puestos de estudio, … 
+* Petición de uso y préstamo de hardware específicos (por ejemplo, portátiles, ordenadores 
+sobremesa, tablets,…) 
+* Acceso a grupos de estudio por asignaturas o por temas de interés. 
+* Acceso a clubs de lectura generales y especializada.
+
+2. Para los docentes e investigadores
+ * Además, de las funcionalidades listadas para los estudiantes, más: 
+ * Gestión de bibliografía recomendada para las asignaturas. 
+ * Gestión de bibliografía y suscripciones para proyectos de investigación.  
+ * Gestión de grupos de estudio 
+ * Consulta de estadísticas de uso de recursos de los alumnos, o por parte de los
+   investigadores del grupo. 
+ * Acceso ampliado a recursos restringidos con cargo a proyectos de investigación 
+ * Petición de estudios bibliométricos de actividad de I+D para convocatorias específicas (por ejemplo, petición de Sexenios de Investigación, o de acreditaciones de la ANECA) 
+
+3. Para el personal bibliotecario
+ * Alta, modificación y baja de usuarios de la biblioteca. 
+ * Alta, modificación y baja de registros bibliográficos. 
+ * Gestión de préstamos y devoluciones. 
+ * Control de reservas y renovaciones. 
+ * Inventario y seguimiento de materiales físicos. 
+ * Generación de informes operativos sobre el uso de recursos hardware y de recursos electrónicos. 
+
+4. Para los administradores del sistema
+ * Configuración de parámetros del sistema (políticas de préstamo, horarios, etc.). 
+ * Gestión de roles y permisos. 
+ * Auditoría de actividades. 
+ * Integración con otros sistemas universitarios (por ejemplo, sistema académico). 
+ * Generación de estadísticas globales y reportes de uso. 
+ * Gestión de actualizaciones.
+
+REQUISITOS NO FUNCIONALES 
+-------------------------------------------------------------------------------------------------------------------------
+
+1. Un mismo usuario no puede tener 2 cuentas a la vez
+2. No se puede acceder sin estar registrado
+3. No se puede pedir otro préstamo sin haber terminado el préstamo anterior
+4. No se puede reservar un libro que no este disponible.
+5. Un usuario normal no puede acceder como administrador.
+
