@@ -1,2 +1,1 @@
-# Sesion-1
-Ejercicio propuesto en clase del lab
+# 2025-ISO2-BC1
