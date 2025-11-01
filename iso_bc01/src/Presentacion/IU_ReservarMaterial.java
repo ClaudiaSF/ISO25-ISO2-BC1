@@ -1,5 +1,5 @@
 package iso_bc01.Presentacion;
-import Dominio.*;
+import iso_bc01.Dominio.*;
 
 public class IU_ReservarMaterial {
 	private GestorReservas gestorDeReservas;
@@ -17,3 +17,4 @@ public class IU_ReservarMaterial {
 	}
 
 }
+
