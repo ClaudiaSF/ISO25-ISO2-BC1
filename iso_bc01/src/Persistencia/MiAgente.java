@@ -1,4 +1,4 @@
-package Persistencia;
+package iso_bc01.Persistencia;
 
 public class MiAgente {
 	private MiAgente miestancia;
@@ -30,4 +30,5 @@ public class MiAgente {
 	private void conectar() {
 		throw new UnsupportedOperationException();
 	}
+
 }
