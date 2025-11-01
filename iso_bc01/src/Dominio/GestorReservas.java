@@ -1,4 +1,4 @@
-package Dominio;
+package iso_bc01.Dominio;
 
 import Persistencia.*;
 import java.util.List;
@@ -26,4 +26,5 @@ public class GestorReservas {
 	public List<Reserva> listarReservas() {
 		throw new UnsupportedOperationException();
 	}
+
 }
