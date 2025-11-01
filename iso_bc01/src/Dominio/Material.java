@@ -1,4 +1,4 @@
-package Dominio;
+package iso_bc01.Dominio;
 
 public class Material {
 	private int id;
@@ -34,4 +34,5 @@ public class Material {
 	public int getCantidadDisp() {
 		throw new UnsupportedOperationException();
 	}
+
 }
