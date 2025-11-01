@@ -1,3 +1,5 @@
+package iso_bc01
+
 import Dominio.*;
 import Presentacion.*;
 
@@ -19,6 +21,7 @@ public class Main
          Reserva r = reservar.capturarDatos();
          System.out.println("Reserva realizada con éxito");  
     }
+
 
 
 }
