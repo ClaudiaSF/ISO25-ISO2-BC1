@@ -1,4 +1,4 @@
-package Dominio;
+package iso_bc01.Dominio;
 
 public class Reserva {
 	private int id;
@@ -56,4 +56,5 @@ public class Reserva {
 	public void setFecha(String aFecha) {
 		this.fecha = aFecha;
 	}
+
 }
