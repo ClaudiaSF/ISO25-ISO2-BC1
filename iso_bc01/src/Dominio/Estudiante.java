@@ -1,4 +1,4 @@
-package Dominio;
+package iso_bc01.Dominio;
 
 public class Estudiante {
 	private String nombre;
@@ -43,4 +43,5 @@ public class Estudiante {
 	public void setEmail(String aEmail) {
 		this.email = aEmail;
 	}
+
 }
