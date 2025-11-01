@@ -1,4 +1,4 @@
-package iso_bc01
+package iso_bc01;
 
 import Dominio.*;
 import Presentacion.*;
@@ -25,3 +25,4 @@ public class Main
 
 
 }
+
