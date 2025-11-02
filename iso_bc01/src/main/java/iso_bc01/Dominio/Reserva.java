@@ -5,6 +5,7 @@ public class Reserva {
 	private Estudiante estudiante;
 	private Material material;
 	private String fecha;
+	private String hora;
 	private String estado;
 	public Estudiante unnamedEstudiante;
 	public Material unnamedMaterial;
@@ -29,7 +30,7 @@ public class Reserva {
 		return this.estudiante;
 	}
 
-	public Material getMat() {
+	public Material getMaterial() {
 		throw new UnsupportedOperationException();
 	}
 
@@ -37,8 +38,20 @@ public class Reserva {
 		return this.fecha;
 	}
 
+	public String getHora() {
+		return this.hora;
+	}
+
 	public void setId(String aId) {
 		throw new UnsupportedOperationException();
+	}
+	
+	public void setFecha(String aFecha) {
+		this.fecha = aFecha;
+	}
+
+	public void setHora(String aHora) {
+		this.hora = aHora;
 	}
 
 	public void setEstudiante(Estudiante aEstudiante) {
@@ -58,3 +71,4 @@ public class Reserva {
 	}
 
 }
+
