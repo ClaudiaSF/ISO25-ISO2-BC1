@@ -20,6 +20,14 @@ public class Estudiante {
 		throw new UnsupportedOperationException();
 	}
 
+	public String getDNI() {
+		return this.dni;
+	}
+
+	public String getEmail() {
+		return this.email;
+	}
+
 	public boolean validar() {
 		throw new UnsupportedOperationException();
 	}
@@ -45,3 +53,4 @@ public class Estudiante {
 	}
 
 }
+
