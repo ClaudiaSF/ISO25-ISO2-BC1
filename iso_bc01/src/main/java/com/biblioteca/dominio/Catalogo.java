@@ -17,4 +17,8 @@ public class Catalogo {
     public List<Material> getMateriales() {
         return materiales;
     }
+    public void setMateriales(List<Material> materiales) {
+        this.materiales = materiales;
+    }
 }
+
