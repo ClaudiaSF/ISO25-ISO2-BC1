@@ -14,6 +14,27 @@ public class Material {
         this.editorial = editorial;
         this.edicion = edicion;
     }
+//getters
+public String getTitulo() { return titulo; }
+}
+public String getAutor() { return Autor; }
+}
+public String getISBN() { return ISBN; }
+}
+public String getEditorial() { return Editorial; }
+}
+public String getEdicion() { return Edicion; }
+}
 
-    public String getTitulo() { return titulo; }
+//setters
+
+public void setTitulo(String Titulo ) { this.titulo=Titulo ; }
+}
+public void setAutor(String Autor) { this.autor= Autor; }
+}
+public void setISBN(String isbn) { this.ISBN= isbn; }
+}
+public void setEditorial(String Editorial) { this.editorial= Editorial; }
+}
+public void setEdicion(int Edicion) { this.edicion= Edicion; }
 }
