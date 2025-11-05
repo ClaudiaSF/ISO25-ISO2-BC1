@@ -1,4 +1,4 @@
-package com.biblioteca.dominio;
+package iso_bc01.Dominio;
 
 public class GestorBusqueda {
 
@@ -11,4 +11,5 @@ public class GestorBusqueda {
         return null;
     }
 }
+
 
