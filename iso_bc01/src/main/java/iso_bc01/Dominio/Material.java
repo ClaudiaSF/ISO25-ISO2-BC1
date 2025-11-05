@@ -1,4 +1,4 @@
-package com.biblioteca.dominio;
+package iso_bc01.Dominio;
 
 public class Material {
     private String titulo;
@@ -38,3 +38,4 @@ public void setEditorial(String Editorial) { this.editorial= Editorial; }
 }
 public void setEdicion(int Edicion) { this.edicion= Edicion; }
 }
+
