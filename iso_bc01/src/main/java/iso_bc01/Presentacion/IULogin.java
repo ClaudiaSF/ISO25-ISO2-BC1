@@ -1,6 +1,6 @@
-package com.biblioteca.presentacion;
+package iso_bc01.Presentacion;
 
-import com.biblioteca.dominio.*;
+import iso_bc01.Dominio.*;
 
 public class IULogin {
 
@@ -14,4 +14,3 @@ public class IULogin {
         return gl.verificarCredenciales(username, password);
     }
 }
-
