@@ -1,4 +1,4 @@
-package com.biblioteca.dominio;
+package iso_bc01.Dominio;
 
 import com.biblioteca.persistencia.Agente;
 import java.sql.*;
@@ -20,4 +20,5 @@ public class GestorLogin {
         return null;
     }
 }
+
 
