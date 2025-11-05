@@ -7,13 +7,10 @@ import iso_bc01.Presentacion.*;
  * Hello world!
  *
  */
-public class Main 
-{
-    public static void main( String[] args )
-    {
+public class Main {
+    public static void main( String[] args ){
         System.out.println( "Bienvenido a nuestra aplicación: " );
         reservar();
-
     }
 
     public static void reservar(){
@@ -21,8 +18,4 @@ public class Main
          Reserva r = reservar.capturarDatos();
          System.out.println("Reserva realizada con éxito");  
     }
-
-
-
 }
-
