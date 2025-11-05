@@ -1,4 +1,4 @@
-package com.biblioteca.dominio;
+package iso_bc01.Dominio;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,4 +21,5 @@ public class Catalogo {
         this.materiales = materiales;
     }
 }
+
 
