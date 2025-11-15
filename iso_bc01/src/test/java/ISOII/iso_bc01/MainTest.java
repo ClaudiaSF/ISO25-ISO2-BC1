@@ -32,7 +32,22 @@ public class MainTest
         // pruebas convenientes a la iteracion 3
         assertTrue( true );
     }
+     @Test
+    public void shouldAnswerWithTrue4()
+    {
+        // pruebas convenientes a la iteracion 4
+        assertTrue( true );
+    }
+    
+    @Test
+    public void shouldAnswerWithTrue5()
+    {
+        // pruebas convenientes a la iteracion 5
+        assertTrue( true );
+    }
+
 }
+
 
 
 
