@@ -22,8 +22,8 @@ public class Main {
             System.out.println("✅ Material encontrado: " + material.getTitulo());
 
             // --- RESERVA DEL MATERIAL ---
-            IU_ReservarMaterial reservar = new IU_ReservarMaterial();
-            Reserva reserva = reservar.capturarDatos();
+            IUReservarMaterial reservar = new IUReservarMaterial();
+            Reserva reserva = reservar.capturarDatos(material);
             System.out.println("✅ Reserva realizada con éxito para: " + material.getTitulo());
 
             // --- PRÉSTAMO ---
@@ -41,19 +41,28 @@ public class Main {
 
         // --- GESTIÓN DE ROLES ---
         System.out.println("\n=== Gestión de Roles ===");
-        IU_MostrarRoles uiRoles = new IU_MostrarRoles();
+        IURoles uiRoles = new IURoles();
         uiRoles.mostrarRoles();
 
         // --- GESTIÓN DE PERMISOS ---
         System.out.println("\n=== Gestión de Permisos ===");
-        IU_MostrarPermisos uiPermisos = new IU_MostrarPermisos();
+        IUPermisos uiPermisos = new IUPermisos();
         uiPermisos.mostrarPermisos();
 
         // --- GESTIÓN DE PARÁMETROS ---
         System.out.println("\n=== Gestión de Parámetros ===");
-        IU_MostrarParametros uiParametros = new IU_MostrarParametros();
+        IUParametros uiParametros = new IUParametros();
         uiParametros.mostrarParametros();
 
+        
+        // --- GESTIÓN DE CONSULTAR HISTORIAL ---
+        System.out.println("\n=== Gestión de Consulta de Historial ===");
+        IUConsultarHistorial uiHistorial = new IUConsultarHistorial();
+        uiHistorial.mostrarHistorial();
+
+        
         System.out.println("\n✅ Fin de la simulación del sistema de biblioteca.");
+
+    	}
     }
-}
+

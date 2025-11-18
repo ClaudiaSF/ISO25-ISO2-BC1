@@ -1,54 +1,57 @@
 package iso_bc01.Dominio;
 
 public class Reserva {
-	private int _id;
-	private Estudiante _estudiante;
-	private Material _material;
-	private String _fecha;
-	private String _estado;
-	private String _hora;
-	public Estudiante _unnamed_Estudiante_;
-	public int get_id() {
-		return _id;
+	private int id;
+	private Estudiante estudiante;
+	private Material material;
+	private String fecha;
+	private String estado;
+	private String hora;
+	public Estudiante unnamed_Estudiante_;
+	
+	public int getId() {
+		return id;
 	}
-	public void set_id(int _id) {
-		this._id = _id;
+	public void setId(int id) {
+		this.id = id;
 	}
-	public Estudiante get_estudiante() {
-		return _estudiante;
+	public Estudiante getEstudiante() {
+		return estudiante;
 	}
-	public void set_estudiante(Estudiante _estudiante) {
-		this._estudiante = _estudiante;
+	public void setEstudiante(Estudiante estudiante) {
+		this.estudiante = estudiante;
 	}
-	public Material get_material() {
-		return _material;
+	public Material getMaterial() {
+		return material;
 	}
-	public void set_material(Material _material) {
-		this._material = _material;
+	public void setMaterial(Material material) {
+		this.material = material;
 	}
-	public String get_fecha() {
-		return _fecha;
+	public String getFecha() {
+		return fecha;
 	}
-	public void set_fecha(String _fecha) {
-		this._fecha = _fecha;
+	public void setFecha(String fecha) {
+		this.fecha = fecha;
 	}
-	public String get_estado() {
-		return _estado;
+	public String getEstado() {
+		return estado;
 	}
-	public void set_estado(String _estado) {
-		this._estado = _estado;
+	public void setEstado(String estado) {
+		this.estado = estado;
 	}
-	public String get_hora() {
-		return _hora;
+	public String getHora() {
+		return hora;
 	}
-	public void set_hora(String _hora) {
-		this._hora = _hora;
+	public void setHora(String hora) {
+		this.hora = hora;
 	}
-	public Estudiante get_unnamed_Estudiante_() {
-		return _unnamed_Estudiante_;
+	public Estudiante getUnnamed_Estudiante_() {
+		return unnamed_Estudiante_;
 	}
-	public void set_unnamed_Estudiante_(Estudiante _unnamed_Estudiante_) {
-		this._unnamed_Estudiante_ = _unnamed_Estudiante_;
+	public void setUnnamed_Estudiante_(Estudiante unnamed_Estudiante_) {
+		this.unnamed_Estudiante_ = unnamed_Estudiante_;
 	}
+
+	
 
 }
