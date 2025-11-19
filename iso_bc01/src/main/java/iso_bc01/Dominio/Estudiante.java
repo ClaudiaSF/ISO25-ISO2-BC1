@@ -72,7 +72,4 @@ public class Estudiante extends Usuario {
 	public void setUnnamed_Devolucion_(Devolucion unnamed_Devolucion_) {
 		this.unnamed_Devolucion_ = unnamed_Devolucion_;
 	}
-
-	
-	
 }

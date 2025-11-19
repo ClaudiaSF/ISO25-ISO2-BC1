@@ -96,10 +96,4 @@ public class Material extends Catalogo {
 	public void setUnnamed_Prestamo_(Prestamo unnamed_Prestamo_) {
 		this.unnamed_Prestamo_ = unnamed_Prestamo_;
 	}
-
-	
-	
-	
-
-
 }

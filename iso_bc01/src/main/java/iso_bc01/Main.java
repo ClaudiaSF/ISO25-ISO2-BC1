@@ -60,9 +60,6 @@ public class Main {
         IUConsultarHistorial uiHistorial = new IUConsultarHistorial();
         uiHistorial.mostrarHistorial();
 
-        
         System.out.println("\n✅ Fin de la simulación del sistema de biblioteca.");
-
     	}
     }
-

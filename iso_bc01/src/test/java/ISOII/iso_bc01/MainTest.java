@@ -1,7 +1,6 @@
 package ISOII.iso_bc01;
 
 import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 /**
@@ -45,9 +44,4 @@ public class MainTest
         // pruebas convenientes a la iteracion 5
         assertTrue( true );
     }
-
 }
-
-
-
-
