@@ -9,7 +9,7 @@ public class Material extends Catalogo {
 	private boolean disponible;
 	private int cantidadDisponible;
 	private int id;
-	
+
 	public Prestamo unnamed_Prestamo_;
 
 	public Material(String titulo, String autor, String iSBN, String editorial, int edicion, boolean disponible,

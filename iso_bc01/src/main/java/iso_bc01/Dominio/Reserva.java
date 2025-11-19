@@ -51,4 +51,7 @@ public class Reserva {
 	public void setUnnamed_Estudiante_(Estudiante unnamed_Estudiante_) {
 		this.unnamed_Estudiante_ = unnamed_Estudiante_;
 	}
+
+	
+
 }
