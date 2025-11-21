@@ -45,7 +45,15 @@ public class MainTest
         assertTrue( true );
     }
 
+    @Test
+    public void shouldAnswerWithTrue6()
+    {
+        // pruebas convenientes a la iteracion 6
+        assertTrue( true );
+    }
+
 }
+
 
 
 
