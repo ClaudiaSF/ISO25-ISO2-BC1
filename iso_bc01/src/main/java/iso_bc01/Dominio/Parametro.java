@@ -1,6 +1,6 @@
 package iso_bc01.Dominio;
 
-import java.util.List;
+import java.util.*;
 
 public class Parametro {
     private String tipoParametro;
@@ -74,4 +74,3 @@ public class Parametro {
         this.politicasSeguridad = politicasSeguridad;
     }
 }
-
