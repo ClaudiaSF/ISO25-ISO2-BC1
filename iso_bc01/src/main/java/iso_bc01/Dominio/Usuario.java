@@ -3,6 +3,7 @@ package iso_bc01.Dominio;
 public class Usuario {
 	private String _username;
 	private String _password;
+	
 	public Usuario(String username, String password) {
 		this._username = username;
 		this._password = password;
