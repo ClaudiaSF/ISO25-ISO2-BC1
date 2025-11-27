@@ -9,6 +9,7 @@ public class IUSuscripcionesProyectos {
     public List<Suscripcion> mostrarSuscripciones() {
         System.out.println("📋 Mostrando suscripciones a proyectos...");
         GestorSuscripciones gestor = new GestorSuscripciones();
+        
         if (gestor.verificarSuscripcion()) {
             List<Suscripcion> suscripciones = gestor.obtenerSuscripciones();
             System.out.println("✅ " + suscripciones.size() + " suscripciones encontradas.");
