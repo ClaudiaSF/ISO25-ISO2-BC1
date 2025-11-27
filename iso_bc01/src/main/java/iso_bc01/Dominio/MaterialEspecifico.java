@@ -37,5 +37,4 @@ public class MaterialEspecifico extends Material {
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
     }
-
 }
