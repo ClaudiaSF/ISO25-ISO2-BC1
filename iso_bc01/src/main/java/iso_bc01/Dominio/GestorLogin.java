@@ -11,6 +11,7 @@ public class GestorLogin {
             String SQL = "SELECT * FROM usuarios WHERE username='" + username +
                          "' AND password='" + password + "'";
             ResultSet rs = agente.select(SQL);
+            
             if (rs.next() ) {
                 return new Usuario(username, password);
             }
@@ -20,5 +21,3 @@ public class GestorLogin {
         return null;
     }
 }
-
-
