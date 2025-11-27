@@ -13,6 +13,7 @@ public class IU_MostrarPermisos {
 
     public List<Permiso> mostrarPermisos() {
         System.out.println("Lista de permisos registrados:");
+        
         for (Permiso p : gestor.listarPermisos()) {
             System.out.println("- " + p.getTipoPermiso());
         }
