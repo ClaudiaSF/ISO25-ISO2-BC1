@@ -34,5 +34,4 @@ public class Suscripcion {
     public void setEstado(String estado) {
         this.estado = estado;
     }
-
 }
