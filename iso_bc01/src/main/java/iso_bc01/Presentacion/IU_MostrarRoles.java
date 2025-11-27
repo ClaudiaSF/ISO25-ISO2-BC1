@@ -1,7 +1,7 @@
 package iso_bc01.Presentacion;
 
 import iso_bc01.Dominio.*;
-import java.util.List;
+import java.util.*;
 
 public class IU_MostrarRoles {
 
@@ -13,10 +13,10 @@ public class IU_MostrarRoles {
 
     public List<Rol> mostrarRoles() {
         System.out.println("Lista de roles disponibles:");
+        
         for (Rol r : gestor.listarRoles()) {
             System.out.println("- " + r.getTipoRol() + " (" + r.getDescripcion() + ")");
         }
         return gestor.listarRoles();
     }
 }
-
