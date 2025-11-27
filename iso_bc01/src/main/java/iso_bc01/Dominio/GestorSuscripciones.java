@@ -8,8 +8,26 @@ public class GestorSuscripciones {
     }
 
     public List<Suscripcion> obtenerSuscripciones() {
-        Suscripcion suscripcion1 = new Suscripcion(1, "Proyecto A", "Activo");
-        Suscripcion suscripcion2 = new Suscripcion(2, "Proyecto B", "Inactivo");
+        Suscripcion suscripcion1 = new Suscripcion(
+            1,
+            "Título A",          // título
+            "Autor A",           // autor
+            "2024",              // año
+            "https://enlaceA.com", // enlace
+            "Proyecto A",        // proyecto
+            "Activo"             // estado
+        );
+
+        Suscripcion suscripcion2 = new Suscripcion(
+            2,
+            "Título B",
+            "Autor B",
+            "2023",
+            "https://enlaceB.com",
+            "Proyecto B",
+            "Inactivo"
+        );
+
         return List.of(suscripcion1, suscripcion2);
     }
 }
