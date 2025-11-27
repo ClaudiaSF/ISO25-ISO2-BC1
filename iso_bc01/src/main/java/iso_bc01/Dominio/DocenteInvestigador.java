@@ -1,6 +1,6 @@
 package iso_bc01.Dominio;
 
-import java.util.List;
+import java.util.*;
 
 public class DocenteInvestigador {
     private int id;
@@ -51,5 +51,4 @@ public class DocenteInvestigador {
         GestorBibliografia gestorBibliografia = new GestorBibliografia();
         return gestorBibliografia.obtenerBibliografia();
     }
-
 }
