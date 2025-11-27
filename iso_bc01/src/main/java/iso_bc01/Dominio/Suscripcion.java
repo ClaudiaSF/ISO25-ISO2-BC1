@@ -1,30 +1,22 @@
 package iso_bc01.Dominio;
 
-public class Suscripcion {
-    private int id;
+public class Suscripcion extends Bibliografia {
     private String proyecto;
     private String estado;
 
-    public Suscripcion(int id, String proyecto, String estado) {
-        this.id = id;
+    public Suscripcion(int id, String titulo, String autor, String anio, String enlace,
+                       String proyecto, String estado) {
+        super(id, titulo, autor, anio, enlace);
         this.proyecto = proyecto;
         this.estado = estado;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getId() {
-        return id;
+    public String getProyecto() {
+        return proyecto;
     }
 
     public void setProyecto(String proyecto) {
         this.proyecto = proyecto;
-    }
-
-    public String getProyecto() {
-        return proyecto;
     }
 
     public String getEstado() {
