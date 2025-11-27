@@ -1,6 +1,6 @@
 package iso_bc01.Dominio;
 
-import java.util.List;
+import java.util.*;
 
 public class GestorSolicitudes {
     public Solicitud crearSolicitud(String tipoMaterial, Estudiante estudiante) {
@@ -17,5 +17,4 @@ public class GestorSolicitudes {
         // Lógica para obtener solicitudes pendientes
         throw new UnsupportedOperationException();
     }
-
 }
