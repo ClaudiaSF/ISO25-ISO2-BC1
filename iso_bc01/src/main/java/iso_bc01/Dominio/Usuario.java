@@ -1,23 +1,23 @@
 package iso_bc01.Dominio;
 
 public class Usuario {
-	private String username;
-	private String password;
+	private String _username;
+	private String _password;
 	public Usuario(String username, String password) {
-		this.username = username;
-		this.password = password;
+		this._username = username;
+		this._password = password;
 		// TODO Auto-generated constructor stub
 	}
 	public String get_username() {
-		return username;
+		return _username;
 	}
 	public void set_username(String _username) {
-		this.username = _username;
+		this._username = _username;
 	}
 	public String get_password() {
-		return password;
+		return _password;
 	}
 	public void set_password(String _password) {
-		this.password = _password;
+		this._password = _password;
 	}
 }
