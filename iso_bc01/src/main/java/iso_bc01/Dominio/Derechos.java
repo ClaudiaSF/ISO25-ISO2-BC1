@@ -40,4 +40,3 @@ public class Derechos {
         this.nivelAcceso = nivelAcceso;
     }
 }
-
