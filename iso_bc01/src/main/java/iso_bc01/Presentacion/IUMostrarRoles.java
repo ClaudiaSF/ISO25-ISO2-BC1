@@ -1,7 +1,9 @@
 package iso_bc01.Presentacion;
 
-import iso_bc01.Dominio.*;
 import java.util.List;
+
+import iso_bc01.Dominio.GestorRoles;
+import iso_bc01.Dominio.Rol;
 
 public class IUMostrarRoles {
 
@@ -19,4 +21,3 @@ public class IUMostrarRoles {
         return gestor.listarRoles();
     }
 }
-

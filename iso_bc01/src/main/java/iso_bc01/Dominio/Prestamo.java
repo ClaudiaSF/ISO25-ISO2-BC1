@@ -1,53 +1,54 @@
 package iso_bc01.Dominio;
 
 public class Prestamo {
-	private int _id;
-	private String _fechaInicio;
-	private String _fechaLimite;
-	private boolean _devuelto;
-	public Material _unnamed_Material_;
-	public Estudiante _unnamed_Estudiante_;
-	public Devolucion _unnamed_Devolucion_;
-	public int get_id() {
-		return _id;
+	private int id;
+	private String fechaInicio;
+	private String fechaLimite;
+	private boolean devuelto;
+	public Material unnamed_Material_;
+	public Estudiante unnamed_Estudiante_;
+	public Devolucion unnamed_Devolucion_;
+	public int getId() {
+		return id;
 	}
-	public void set_id(int _id) {
-		this._id = _id;
+	public void setId(int id) {
+		this.id = id;
 	}
-	public String get_fechaInicio() {
-		return _fechaInicio;
+	public String getFechaInicio() {
+		return fechaInicio;
 	}
-	public void set_fechaInicio(String _fechaInicio) {
-		this._fechaInicio = _fechaInicio;
+	public void setFechaInicio(String fechaInicio) {
+		this.fechaInicio = fechaInicio;
 	}
-	public String get_fechaLimite() {
-		return _fechaLimite;
+	public String getFechaLimite() {
+		return fechaLimite;
 	}
-	public void set_fechaLimite(String _fechaLimite) {
-		this._fechaLimite = _fechaLimite;
+	public void setFechaLimite(String fechaLimite) {
+		this.fechaLimite = fechaLimite;
 	}
-	public boolean is_devuelto() {
-		return _devuelto;
+	public boolean isDevuelto() {
+		return devuelto;
 	}
-	public void set_devuelto(boolean _devuelto) {
-		this._devuelto = _devuelto;
+	public void setDevuelto(boolean devuelto) {
+		this.devuelto = devuelto;
 	}
-	public Material get_unnamed_Material_() {
-		return _unnamed_Material_;
+	public Material getUnnamed_Material_() {
+		return unnamed_Material_;
 	}
-	public void set_unnamed_Material_(Material _unnamed_Material_) {
-		this._unnamed_Material_ = _unnamed_Material_;
+	public void setUnnamed_Material_(Material unnamed_Material_) {
+		this.unnamed_Material_ = unnamed_Material_;
 	}
-	public Estudiante get_unnamed_Estudiante_() {
-		return _unnamed_Estudiante_;
+	public Estudiante getUnnamed_Estudiante_() {
+		return unnamed_Estudiante_;
 	}
-	public void set_unnamed_Estudiante_(Estudiante _unnamed_Estudiante_) {
-		this._unnamed_Estudiante_ = _unnamed_Estudiante_;
+	public void setUnnamed_Estudiante_(Estudiante unnamed_Estudiante_) {
+		this.unnamed_Estudiante_ = unnamed_Estudiante_;
 	}
-	public Devolucion get_unnamed_Devolucion_() {
-		return _unnamed_Devolucion_;
+	public Devolucion getUnnamed_Devolucion_() {
+		return unnamed_Devolucion_;
 	}
-	public void set_unnamed_Devolucion_(Devolucion _unnamed_Devolucion_) {
-		this._unnamed_Devolucion_ = _unnamed_Devolucion_;
+	public void setUnnamed_Devolucion_(Devolucion unnamed_Devolucion_) {
+		this.unnamed_Devolucion_ = unnamed_Devolucion_;
 	}
+
 }
