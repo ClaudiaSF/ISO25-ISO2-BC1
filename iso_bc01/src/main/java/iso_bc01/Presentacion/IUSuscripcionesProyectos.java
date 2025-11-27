@@ -1,6 +1,6 @@
 package iso_bc01.Presentacion;
 
-import java.util.List;
+import java.util.*;
 import iso_bc01.Dominio.Suscripcion;
 import iso_bc01.Dominio.GestorSuscripciones;
 
