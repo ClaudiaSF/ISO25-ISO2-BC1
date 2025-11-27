@@ -3,19 +3,15 @@ package iso_bc01.Dominio;
 public class Derechos {
 
     private int id;
-    private String tipoAcceso;
-    private String nivelAcceso;
+    private String tipoDerecho;
+    private String nivelDerecho;
 
-    public Derechos(int id, String tipoAcceso, String nivelAcceso) {
+    public Derechos(int id, String tipoDerecho, String nivelDerecho) {
         this.id = id;
-        this.tipoAcceso = tipoAcceso;
-        this.nivelAcceso = nivelAcceso;
+        this.tipoDerecho = tipoDerecho;
+        this.nivelDerecho = nivelDerecho;
     }
-
-    public void operacion() {
-        throw new UnsupportedOperationException();
-    }
-
+    
     public int getId() {
         return id;
     }
@@ -24,19 +20,19 @@ public class Derechos {
         this.id = id;
     }
 
-    public String getTipoAcceso() {
-        return tipoAcceso;
+    public String getTipoDerecho() {
+        return tipoDerecho;
     }
 
-    public void setTipoAcceso(String tipoAcceso) {
-        this.tipoAcceso = tipoAcceso;
+    public void setTipoDerecho(String tipoDerecho) {
+        this.tipoDerecho = tipoDerecho;
     }
 
-    public String getNivelAcceso() {
-        return nivelAcceso;
+    public String getNivelDerecho() {
+        return nivelDerecho;
     }
 
-    public void setNivelAcceso(String nivelAcceso) {
-        this.nivelAcceso = nivelAcceso;
+    public void setNivelDerecho(String nivelDerecho) {
+        this.nivelDerecho = nivelDerecho;
     }
 }
