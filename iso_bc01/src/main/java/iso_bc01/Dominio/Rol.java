@@ -35,4 +35,3 @@ public class Rol {
         this.descripcion = descripcion;
     }
 }
-
