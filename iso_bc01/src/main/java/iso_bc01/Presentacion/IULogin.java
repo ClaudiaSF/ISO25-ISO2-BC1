@@ -1,10 +1,7 @@
 package iso_bc01.Presentacion;
 
 import java.lang.reflect.Parameter;
-
 import iso_bc01.Dominio.Usuario;
-
-
 
 public class IULogin {
 
