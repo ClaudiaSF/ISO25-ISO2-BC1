@@ -1,6 +1,6 @@
 package iso_bc01.Dominio;
 
-import java.util.List;
+import java.util.*;
 
 public class GestorBibliografia {
     public boolean verificarBibliografia() {
