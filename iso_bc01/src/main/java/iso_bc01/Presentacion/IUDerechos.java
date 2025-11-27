@@ -1,8 +1,6 @@
 package iso_bc01.Presentacion;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.*;
 import iso_bc01.Dominio.Derechos;
 import iso_bc01.Dominio.Usuario;
 
