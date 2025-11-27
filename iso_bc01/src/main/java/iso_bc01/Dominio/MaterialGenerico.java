@@ -27,5 +27,4 @@ public class MaterialGenerico extends Material {
     public void setMarca(String estado) {
         this.marca = estado;
     }
-
 }
