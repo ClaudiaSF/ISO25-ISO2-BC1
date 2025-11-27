@@ -2,8 +2,7 @@ package iso_bc01.Presentacion;
 
 import iso_bc01.Dominio.Parametro;
 import iso_bc01.Dominio.Usuario;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class IUParametros {
 
@@ -28,7 +27,6 @@ public class IUParametros {
                                ", Cantidad: " + p.getCantidadParametros() +
                                ", Límite de sesión: " + p.getLimitesSesion());
         }
-
         return parametros;
     }
 }
