@@ -1,8 +1,6 @@
 package iso_bc01.Presentacion;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.*;
 import iso_bc01.Dominio.Estudiante;
 import iso_bc01.Dominio.Solicitud;
 
@@ -24,7 +22,8 @@ public class IUSolicitudMaterial {
                 "juan@test.com",
                 null,
                 null,
-                null);
+                null
+        );
 
         String fechaSolicitud = java.time.LocalDate.now().toString();
 
@@ -40,7 +39,6 @@ public class IUSolicitudMaterial {
             System.out.println(
                     "- " + s.getTipoMaterial() + " (ID: " + s.getId() + ", Fecha: " + s.getFechaSolicitud() + ")");
         }
-
         return solicitudes;
     }
 }
