@@ -1,7 +1,7 @@
 package iso_bc01.Presentacion;
 
 import iso_bc01.Dominio.*;
-import java.util.List;
+import java.util.*;
 
 public class IU_MostrarPermisos {
 
@@ -19,4 +19,3 @@ public class IU_MostrarPermisos {
         return gestor.listarPermisos();
     }
 }
-
