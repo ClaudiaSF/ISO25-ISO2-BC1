@@ -1,56 +1,69 @@
 package ISOII.iso_bc01;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
-public class MainTest {
+public class MainTest 
+{
     /**
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue() {
+    public void shouldAnswerWithTrue()
+    {
         // pruebas convenientes a la iteracion 1
-        assertTrue(true);
+        assertTrue( true );
     }
 
     @Test
-    public void shouldAnswerWithTrue2() {
+    public void shouldAnswerWithTrue2()
+    {
         // pruebas convenientes a la iteracion 2
-        assertTrue(true);
+        assertTrue( true );
     }
-
+    
     @Test
-    public void shouldAnswerWithTrue3() {
+    public void shouldAnswerWithTrue3()
+    {
         // pruebas convenientes a la iteracion 3
-        assertTrue(true);
+        assertTrue( true );
     }
-
     @Test
-    public void shouldAnswerWithTrue4() {
+    public void shouldAnswerWithTrue4()
+    {
         // pruebas convenientes a la iteracion 4
-        assertTrue(true);
+        assertTrue( true );
     }
-
     @Test
-    public void shouldAnswerWithTrue5() {
+    public void shouldAnswerWithTrue5()
+    {
         // pruebas convenientes a la iteracion 5
-        assertTrue(true);
+        assertTrue( true );
     }
-
     @Test
-    public void shouldAnswerWithTrue6() {
+
+    public void shouldAnswerWithTrue6()
+    {
         // pruebas convenientes a la iteracion 6
-        assertTrue(true);
+        assertTrue( true );
     }
-
     @Test
-    public void shouldAnswerWithTrue7() {
+    public void shouldAnswerWithTrue7()
+    {
         // pruebas convenientes a la iteracion 7
-        assertTrue(true);
+        assertTrue( true );
     }
-
+    @Test
+    public void shouldAnswerWithTrue8()
+    {
+        // pruebas convenientes a la iteracion 8
+        assertTrue( true );
+    }
 }
+
+
+
