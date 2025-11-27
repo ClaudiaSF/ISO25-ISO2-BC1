@@ -6,6 +6,7 @@ public class Devolucion {
 	private String observaciones;
 	public Estudiante unnamed_Estudiante_;
 	public Prestamo unnamed_Prestamo_;
+	
 	public int getId() {
 		return id;
 	}
