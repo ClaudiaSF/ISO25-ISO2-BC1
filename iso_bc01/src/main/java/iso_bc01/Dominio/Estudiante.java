@@ -2,6 +2,15 @@ package iso_bc01.Dominio;
 
 public class Estudiante extends Usuario {
 
+	private String _nombre;
+	private int _id;
+	private String _dni;
+	private String _apellidos;
+	private String _email;
+	public Reserva _unnamed_Reserva_;
+	public Prestamo _unnamed_Prestamo_;
+	public Devolucion _unnamed_Devolucion_;
+
 	public Estudiante(String username, String password, String _nombre, int _id, String _dni, String _apellidos,
 			String _email, Reserva _unnamed_Reserva_, Prestamo _unnamed_Prestamo_, Devolucion _unnamed_Devolucion_) {
 		super(username, password);
@@ -14,14 +23,7 @@ public class Estudiante extends Usuario {
 		this._unnamed_Prestamo_ = _unnamed_Prestamo_;
 		this._unnamed_Devolucion_ = _unnamed_Devolucion_;
 	}
-	private String _nombre;
-	private int _id;
-	private String _dni;
-	private String _apellidos;
-	private String _email;
-	public Reserva _unnamed_Reserva_;
-	public Prestamo _unnamed_Prestamo_;
-	public Devolucion _unnamed_Devolucion_;
+	
 	public String get_nombre() {
 		return _nombre;
 	}
@@ -70,6 +72,4 @@ public class Estudiante extends Usuario {
 	public void set_unnamed_Devolucion_(Devolucion _unnamed_Devolucion_) {
 		this._unnamed_Devolucion_ = _unnamed_Devolucion_;
 	}
-
-	
 }
