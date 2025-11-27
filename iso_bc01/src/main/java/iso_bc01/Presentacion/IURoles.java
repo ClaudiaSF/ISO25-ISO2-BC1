@@ -2,8 +2,7 @@ package iso_bc01.Presentacion;
 
 import iso_bc01.Dominio.Rol;
 import iso_bc01.Dominio.Usuario;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class IURoles {
 
@@ -27,7 +26,6 @@ public class IURoles {
         for (Rol r : roles) {
             System.out.println("- " + r.getTipoRol() + " (" + r.getUsername().get_username() + ")");
         }
-
         return roles;
     }
 }
