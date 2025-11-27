@@ -1,6 +1,6 @@
 package iso_bc01.Dominio;
 
-import java.util.List;
+import java.util.*;
 
 public class GestorBibliografiaRecomendada {
     public boolean verificarBibliografiaRecomendada() {
@@ -16,5 +16,4 @@ public class GestorBibliografiaRecomendada {
                 "Ciencias");
         return List.of(b1, b2, b3);
     }
-
 }
