@@ -1,7 +1,6 @@
 package iso_bc01.Dominio;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class gestorParametros {
 
@@ -55,6 +54,3 @@ public class gestorParametros {
         return parametros;
     }
 }
-
-
-
