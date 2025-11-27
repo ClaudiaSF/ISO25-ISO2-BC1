@@ -53,7 +53,7 @@ public class IUConsultarHistorial {
 
         // Mostrar en consola
         for (Prestamo p : historial) {
-            System.out.println("- Estudiante: " + p.getUnnamed_Estudiante_().getNombre() +
+            System.out.println("- Estudiante: " + p.getUnnamed_Estudiante_()+
                                ", Material: " + p.getUnnamed_Material_().getTitulo() +
                                ", Devuelto: " + p.isDevuelto() +
                                ", Inicio: " + p.getFechaInicio() +
