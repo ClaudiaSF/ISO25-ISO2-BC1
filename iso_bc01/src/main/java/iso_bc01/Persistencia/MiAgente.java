@@ -24,7 +24,7 @@ public class MiAgente {
     // Conexión a la base de datos
     private void conectar() {
         try {
-            // Cambia estos datos por los de tu BD
+           
             String url = "jdbc:mysql://localhost:3306/tu_base_de_datos";
             String user = "usuario";
             String password = "contraseña";
@@ -35,7 +35,7 @@ public class MiAgente {
         }
     }
 
-    // Retorna la conexión para uso externo
+    
     public Connection getConnection() {
         return conexion;
     }
@@ -61,6 +61,18 @@ public class MiAgente {
     public int delete(String SQL) throws SQLException {
         try (Statement stmt = conexion.createStatement()) {
             return stmt.executeUpdate(SQL);
+        }
+    }
+
+    // Método seguro para ejecutar deletes con PreparedStatement y parámetros
+    public int deletePrepared(String SQL, Object[] params) throws SQLException {
+        try (PreparedStatement ps = conexion.prepareStatement(SQL)) {
+            if (params != null) {
+                for (int i = 0; i < params.length; i++) {
+                    ps.setObject(i + 1, params[i]);
+                }
+            }
+            return ps.executeUpdate();
         }
     }
 }

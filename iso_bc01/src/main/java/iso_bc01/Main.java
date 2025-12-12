@@ -8,7 +8,6 @@ public class Main {
         System.out.println("=== Bienvenido al Sistema de Biblioteca ===");
 
         // --- LOGIN ---
-        IULogin uiLogin = new IULogin();
         System.out.println("Iniciando sesión...");
         // Simulamos autenticación exitosa
         Usuario usuario = new Usuario("admin", "1234");
@@ -23,17 +22,17 @@ public class Main {
 
             // --- RESERVA DEL MATERIAL ---
             IUReservarMaterial reservar = new IUReservarMaterial();
-            Reserva reserva = reservar.capturarDatos(material);
+            reservar.capturarDatos(material);
             System.out.println("✅ Reserva realizada con éxito para: " + material.getTitulo());
 
             // --- PRÉSTAMO ---
             IUPrestamos uiPrestamos = new IUPrestamos();
-            Prestamo prestamo = uiPrestamos.solicitarPrestamo(12345, material.getTitulo());
+            uiPrestamos.solicitarPrestamo(12345, material.getTitulo());
             System.out.println(uiPrestamos.mostrarResultados("Préstamo creado para " + material.getTitulo()));
 
             // --- DEVOLUCIÓN ---
             IUDevolucion uiDevolucion = new IUDevolucion();
-            Devolucion devolucion = uiDevolucion.solicitarDevolucion(12345, material.getTitulo());
+            uiDevolucion.solicitarDevolucion(12345, material.getTitulo());
             System.out.println(uiDevolucion.mostrarResultados("Devolución registrada de " + material.getTitulo()));
         } else {
             System.out.println("❌ Material no encontrado. No se puede realizar la reserva.");
