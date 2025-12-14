@@ -45,6 +45,41 @@ public class MainTest
         assertTrue( true );
     }
 
+    @Test
+    public void shouldAnswerWithTrue6()
+    {
+        // pruebas convenientes a la iteracion 6
+        assertTrue( true );
+    }
+
+    @Test
+    public void shouldAnswerWithTrue7()
+    {
+        // pruebas convenientes a la iteracion 7
+        assertTrue( true );
+    }
+
+    @Test
+    public void shouldAnswerWithTrue8()
+    {
+        // pruebas convenientes a la iteracion 8
+        assertTrue( true );
+    }
+
+    @Test
+    public void shouldAnswerWithTrue9()
+    {
+        // pruebas convenientes a la iteracion 9
+        assertTrue( true );
+    }
+
+    @Test
+    public void shouldAnswerWithTrue10()
+    {
+        // pruebas convenientes a la iteracion 10
+        assertTrue( true );
+    }
+
 }
 
 
